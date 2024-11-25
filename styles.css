@@ -1,0 +1,44 @@
+main {
+  display: flex;
+  justify-content: center;
+
+  height: 100vh;
+  background-color: #f2f2f2;
+  font-family: Arial, sans-serif;
+  color: #333;
+}
+h1 {
+  text-align: center;
+}
+
+#joke {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  text-align: center;
+  width: 400px;
+  height: 300px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+#container {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+#rand-button,
+#dad-button,
+#chuck-button {
+  margin: 0 10px;
+  display: inline-block;
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #4caf50;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
